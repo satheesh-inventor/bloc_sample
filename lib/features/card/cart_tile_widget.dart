@@ -61,6 +61,7 @@ class CartTileWidget extends StatelessWidget {
                   ),
                   IconButton(
                     onPressed: () {
+                      print('pressed');
                       // homeBloc.add(
                       //     WishlistBtnClkEvent(clickedProduct: productModel));
                     },
